@@ -1,0 +1,93 @@
+/* CSS for the Facebook-style registration form */
+.facebook-registration-form {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+  }
+  .numAff{
+   
+    margin-top: 30px !important ;
+   
+  }
+  .facebook-registration-form h2 {
+    font-size: 28
+    px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #5f88b3; /* Facebook blue color */
+  }
+  
+  .facebook-registration-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .facebook-registration-form input[type="text"],
+  .facebook-registration-form input[type="email"],
+  .facebook-registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .facebook-registration-form .form-label {
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px  !important ;
+  }
+
+  .facebook-registration-form .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .facebook-registration-form .form-check-label {
+    font-weight: normal;
+  }
+  
+  .facebook-registration-form .btn-primary {
+    background-color: #5f88b3; /* Facebook blue color */
+    color: #fff;
+    border: none;
+    width: 180px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center !important;
+    box-shadow: 2px 2px 4px #888888;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  
+    /* Center the button within its container */
+    margin: 0 auto;
+    display: block;
+  }
+  .facebook-registration-form .btn-primary:hover   {
+    background-color:#fff;  /* Facebook blue color */
+    color: #5f88b3;
+  }
+  .facebook-registration-form .radio-container {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+
+  
+  /* Style for the checkbox and radio buttons */
+  .facebook-registration-form .form-check-input {
+    margin-right: 8px;
+  }
+  
+  /* Additional styling as needed */
+  
+  /* You can adjust these styles to match the exact look and feel you desire */
+  

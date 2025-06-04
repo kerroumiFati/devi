@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.error-message{
+ color: red ;
+ font-size: 11px;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+/* YourComponent.css */
+.radio-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.radio-option {
+  margin-right: 25px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin-left: 8vh;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+}
+
+.logo { 
+    color: rgb(195, 201, 255);
+    margin-left: 8vh;
+ font-size: 30px;
+
+}
+
+.nav-links {
+display: flex;
+justify-content: flex-end;
+width: 75%;
+}
+
+.nav-links li {
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.hero {
+ padding: 30px;
+ text-size-adjust: 20px;
+
+}
+ 
+ button {
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.mobile-menu-icon {
+    display: none;
+} 
+
+@media (max-width: 768px){
+ .nav-links{
+    display: none;
+ }
+ .nav-links-mobile{
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color:white;
+ }
+ ul li{
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+ }
+ .mobile-menu-icon{
+    position: absolute;
+    display: block;
+    right: 20px;
+ }
+ 
+} 
+
+.table{
+    padding: 30px;
+ text-size-adjust: 20px;
+}
+
+/* NavBar.css */
+.navbar {
+  background-color: #070c96ee; /* Blue background color for the navbar */
+  display: flex;
+  justify-content: center;
+
+  padding: 10px 0;
+  box-shadow: rgba(9, 9, 9, 0.23) 0 30px 30px -20px; /* Add a box shadow to the navbar */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-top: 2%;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #050505d0; /* White text color for navigation links */
+  padding: 10px 20px; /* Adjust padding to create a circular button */
+  border-radius: 50px; /* Create a circular shape */
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+/* Style for hover effect */
+.nav-link:hover {
+  color:#a1d2ff; 
+  background-color: #5f88b3; /* Change the background color on hover */
+}
+
+/* Styles for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.show {
+  display: flex;
+}
+
+.modal-dialog {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  padding: 16px;
+  text-align: center; /* Centrer le contenu horizontalement */
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-body {
+  margin-bottom: 16px;
+}
+
+.modal-footer {
+  text-align: right;
+}
+
+.modal-footer button {
+  padding: 8px 16px;
+  margin: 0 4px;
+  background-color: #5f88b3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-align: center !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  
+}
+
+.modal-footer button:hover {
+  background-color: #5f88b3;
+}
+
+.circle-image{
+  margin-left:15px ;
+}
+.logo-label {
+  margin-right: 300px; /* Pousse le label vers la gauche autant que possible */
+  transition: font-weight 0.8s ease; /* Ajoute une transition pour l'effet d'animation */
+  font-weight: normal; /* Par défaut, la police n'est pas en gras */  
+  color: black; /* Couleur du texte par défaut */
+  cursor: pointer;
+  margin-top: 1%;
+}
+/* Styles pour la liste ul (pour l'aligner à droite) */
+/* Effet de survol pour mettre en gras */
+.logo-label:hover {
+  font-weight: bold; /* La police devient en gras au survol */  
+  color: #3092d2; /* Couleur du texte par défaut */
+}
