@@ -71,6 +71,7 @@ Le fichier `db.js` configure la connexion à PostgreSQL à l’aide du module `p
 ## 📦 Organisation des dossiers
 
 ### 📁 Backend
+```
 backend/
 ├── controllers/
 │ └── fileController.js # Logique métier (ajout, récupération)
@@ -81,7 +82,7 @@ backend/
 ├── db.js # Connexion PostgreSQL
 ├── database.sql # Script de création des tables
 
-
+```
 ### 📂 Requêtes SQL
 
 - Les requêtes SQL sont centralisées dans `queries/querie.fileExcel.js`
